@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Message container and main game title -->
     <div class="msg-container">
         <br>
         <h1>Tic-Tac-Toe Game</h1>
         <br>
+          <!-- Main New Game button -->
          <button id="main-reset-btn">New Game</button>
     </div>
+        <!-- Tic-Tac-Toe board container -->
         <div class="container">
             <div class="game">
+                <!-- 9 buttons represent the game cells -->
                 <button class="box"></button>
                 <button class="box"></button>
                 <button class="box"></button>
@@ -26,8 +30,9 @@
                 <button class="box"></button>
             </div>
         </div>
-        <button id="reset-btn">Reset Game</button>
-    <!-- Overlay & Popup -->
+    <!-- Reset button below the board -->
+    <button id="reset-btn">Reset Game</button>
+    <!-- Overlay & Popup for displaying messages-->
     <div class="overlay"></div>
     <div class="popup">
         <h2 id="popup-msg"></h2>
